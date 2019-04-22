@@ -71,8 +71,8 @@ window.configUrl = {
     smartlinKeyUrl: 'http://127.0.0.1:1234', // smartlinkey登录地址
     isSmartLinKey: true,// 是否登录smartlinkey客户端
     mainlineMenu:false,//是否为主线菜单（控制跳转路径）
-    zhagUrl:'http://192.168.3.201:97/#/loginByToken?type=0&token=',
-    sacwUrl:'http://192.168.3.159:8083/HCRFID/smartlinkey/smartlinkeyLoign.do?type=0&userCodeMD=',
-    baqUrl:'http://192.168.41.249/#/user/loginBytoken?token='
+    zhagUrl:'http://192.168.3.201:97/#/loginByToken?type=0&token=',//智慧案管跳转接口
+    sacwUrl:'http://192.168.3.159:8083/HCRFID/smartlinkey/smartlinkeyLoign.do?type=0&userCodeMD=',//涉案财物跳转接口
+    baqUrl:'http://192.168.41.249/#/user/loginBytoken?token='//办案区跳转接口
 
 }

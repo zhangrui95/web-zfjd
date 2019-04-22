@@ -12,7 +12,7 @@ export default class GoLink extends PureComponent {
     group:JSON.parse(sessionStorage.getItem('user')).group.name,
   }
   componentDidMount() {
-    console.log(sessionStorage.getItem('user'))
+
   }
   goLink = (xtType) =>{
     if(xtType){
