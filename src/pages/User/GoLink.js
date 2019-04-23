@@ -28,7 +28,7 @@ export default class GoLink extends PureComponent {
       <div className={styles.bg}>
         <div className={styles.name}>{this.state.group} {this.state.name},您好</div>
         <div className={styles.boxUrl+' '+styles.zhag} onClick={()=>this.goLink('zhagUrl')}>执法管理</div>
-        <div className={styles.boxUrl+' '+styles.sacw} onClick={()=>this.goLink('sacwUrl')}>涉案物品管理</div>
+        <div className={styles.boxUrl+' '+styles.sacw} onClick={()=>this.goLink('sacwUrl')}>涉案财物管理</div>
         <div className={styles.boxUrl+' '+styles.baq} onClick={()=>this.goLink('baqUrl')}>办案区管理</div>
         <div className={styles.boxUrl+' '+styles.zhjz}>智慧卷宗管理</div>
       </div>
