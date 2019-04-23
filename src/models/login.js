@@ -59,11 +59,10 @@ export default {
         yield put(
           routerRedux.replace({
             pathname: '/user/login',
-            search: stringify({
-              redirect: window.location.href,
-            }),
           })
         );
+        sessionStorage.clear();
+        message.success('提示：退出成功');
       }
     },
   },

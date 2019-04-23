@@ -46,7 +46,7 @@ class LoginPage extends Component {
       const param = {
         username: values.userName,
         password: MD5.hash(values.password),
-        sid: 'zhag',
+        sid: window.configUrl.sid,
       }
       const { dispatch } = this.props;
       dispatch({
