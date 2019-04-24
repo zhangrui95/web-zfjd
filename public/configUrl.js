@@ -71,8 +71,9 @@ window.configUrl = {
     smartlinKeyUrl: 'http://127.0.0.1:1234', // smartlinkey登录地址
     isSmartLinKey: true,// 是否登录smartlinkey客户端
     mainlineMenu:false,//是否为主线菜单（控制跳转路径）
-    zhagUrl:'http://192.168.3.201:97/#/loginByToken?type=0&token=',//智慧案管跳转接口
-    sacwUrl:'http://192.168.3.159:8083/HCRFID/smartlinkey/smartlinkeyLoign.do?type=0&userCodeMD=',//涉案财物跳转接口
-    baqUrl:'http://192.168.41.249/#/user/loginBytoken?token='//办案区跳转接口
-
+    zhag:'http://192.168.3.201:97/#/loginByToken?type=0&token=',//智慧案管跳转接口
+    zhag_sawp:'http://192.168.3.159:8083/HCRFID/smartlinkey/smartlinkeyLoign.do?type=0&userCodeMD=',//涉案财物跳转接口
+    zhag_baq:'http://192.168.41.249/#/user/loginBytoken?token=',//办案区跳转接口
+    zhag_jz:'',//卷宗入口
+    goLinkList:[{resourceCode:'zhag',name:'执法管理'},{resourceCode:'zhag_sawp',name:'涉案财物管理'},{resourceCode:'zhag_baq',name:'办案区管理'},{resourceCode:'zhag_jz',name:'智慧卷宗管理'}],//配置页面可跳转的系统编码id,与安全中心编码一致
 }
